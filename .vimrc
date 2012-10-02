@@ -3,6 +3,23 @@
 "
 " oki_san＠宮益坂
 "
+
+" NeoBundle
+if has('vim_starting')
+  set runtimepath+=~/.bundle/neobundle.vim
+  filetype off
+  call neobundle#rc(expand('~/.bundle'))
+  filetype plugin on
+  filetype indent on
+endif
+NeoBundle 'git://github.com/Shougo/neocomplcache.git'
+NeoBundle 'git://github.com/Shougo/neobundle.vim.git'
+NeoBundle 'git://github.com/Shougo/vimproc.git'
+NeoBundle 'git://github.com/Shougo/unite.vim.git'
+NeoBundle 'git://github.com/mattn/zencoding-vim.git'
+NeoBundle 'git://github.com/thinca/vim-quickrun.git'
+NeoBundle 'git://github.com/thinca/vim-ref.git'
+
 " カラースキーム
 colorscheme desert
 syntax on
