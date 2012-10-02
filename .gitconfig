@@ -1,8 +1,8 @@
 [user]
-	name = okisanjp
-	email = okisan.jp@gmail.com
+  name = okisanjp
+  email = okisan.jp@gmail.com
 [core]
-	pager = less
+  pager = less
 [color]
   status = auto
   ui     = auto

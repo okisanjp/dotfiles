@@ -15,9 +15,9 @@ set pastetoggle=<F12>
 " TABを半角スペースに変換
 set expandtab
 " TAB幅を設定する
-set tabstop=4
+set tabstop=2
 " autoindent時のTAB幅
-set shiftwidth=4
+set shiftwidth=2
 " フリーカーソル
 set virtualedit+=all
 " インクリメンタルサーチを有効にする
