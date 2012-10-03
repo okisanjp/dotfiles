@@ -24,6 +24,9 @@ NeoBundle 'https://github.com/Shougo/vimfiler.git'
 " neocomplcache
 source ~/.vimrc.neocomplcache
 
+" vimfiler
+source ~/.vimrc.vimfiler
+
 " カラースキーム
 colorscheme desert
 syntax on
@@ -53,5 +56,7 @@ set smartcase
 set whichwrap=b,s,h,l,<,>,[,]
 " 検索結果の移動がループしない様にする（一番下まで行ったら上に戻らないように）
 set nowrapscan
+" 行番号
+set number
 " CakePHP用
 autocmd BufNewFile,BufRead *.ctp set filetype=php
