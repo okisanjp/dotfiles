@@ -19,6 +19,10 @@ NeoBundle 'git://github.com/Shougo/unite.vim.git'
 NeoBundle 'git://github.com/mattn/zencoding-vim.git'
 NeoBundle 'git://github.com/thinca/vim-quickrun.git'
 NeoBundle 'git://github.com/thinca/vim-ref.git'
+NeoBundle 'https://github.com/Shougo/vimfiler.git'
+
+" neocomplcache
+source ~/.vimrc.neocomplcache
 
 " カラースキーム
 colorscheme desert

@@ -3,6 +3,7 @@
   email = okisan.jp@gmail.com
 [core]
   pager = less
+  editor = /usr/bin/vim
 [color]
   status = auto
   ui     = auto
