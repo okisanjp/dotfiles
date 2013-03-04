@@ -1,7 +1,7 @@
+" for NeoBundle
 "
-" 俺の .vimrc
+" git clone https://github.com/Shougo/neobundle.vim
 "
-" oki_san＠宮益坂
 "
 
 " NeoBundle
