@@ -1,29 +1,3 @@
-" for NeoBundle
-"
-" git clone https://github.com/Shougo/neobundle.vim
-"
-"
-
-" NeoBundle
-if has('vim_starting')
-  set runtimepath+=~/.bundle/neobundle.vim
-  filetype off
-  call neobundle#rc(expand('~/.bundle'))
-  filetype plugin on
-  filetype indent on
-endif
-NeoBundle 'git://github.com/Shougo/neocomplcache.git'
-NeoBundle 'git://github.com/Shougo/neobundle.vim.git'
-NeoBundle 'git://github.com/Shougo/vimproc.git'
-NeoBundle 'git://github.com/Shougo/unite.vim.git'
-NeoBundle 'git://github.com/mattn/zencoding-vim.git'
-NeoBundle 'git://github.com/thinca/vim-quickrun.git'
-NeoBundle 'git://github.com/thinca/vim-ref.git'
-NeoBundle 'https://github.com/Shougo/vimfiler.git'
-
-" neocomplcache
-source ~/.vimrc.neocomplcache
-
 " カラースキーム
 colorscheme desert
 syntax on
