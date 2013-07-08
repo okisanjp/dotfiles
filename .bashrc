@@ -12,6 +12,9 @@ export HISTCONTROL=ignoredups
 export HISTCONTROL=ignorespace
 export HISTTIMEFORMAT='%Y-%m-%d %T '
 
+IGNOREOEF=1
+export IGNOREEOF
+
 export EDITOR=/usr/bin/vim visudo
 
 export LANG='ja_JP.UTF-8'
