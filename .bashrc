@@ -12,7 +12,7 @@ export HISTCONTROL=ignoredups
 export HISTCONTROL=ignorespace
 export HISTTIMEFORMAT='%Y-%m-%d %T '
 
-IGNOREOEF=1
+IGNOREEOF=1
 export IGNOREEOF
 
 export EDITOR=/usr/bin/vim visudo
