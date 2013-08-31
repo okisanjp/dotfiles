@@ -36,9 +36,7 @@ export PS1="[\\[\033[33m\]\u@\h \w\[\033[0m\]]\\$ "
 
 export MANPATH=/opt/local/share/man:/opt/local/man:$MANPATH
 
-PATH=$PATH:$HOME/bin
-PATH=$PATH:/usr/local/bin
-PATH=$PATH:/usr/local/sbin
+PATH=/usr/local/bin:/usr/local/sbin:$HOME/bin:$PATH
 
 export PATH
 unset USERNAME
