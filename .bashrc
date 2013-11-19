@@ -36,7 +36,11 @@ export PS1="[\\[\033[33m\]\u@\h \w\[\033[0m\]]\\$ "
 
 export MANPATH=/opt/local/share/man:/opt/local/man:$MANPATH
 
-PATH=/usr/local/bin:/usr/local/sbin:$HOME/bin:$PATH
+PATH=$PATH:/usr/local/bin:/usr/local/sbin:$HOME/bin
+
+export AWS_CONFIG_FILE=~/.awscli
+complete -C aws_completer aws
+
 
 export PATH
 unset USERNAME
