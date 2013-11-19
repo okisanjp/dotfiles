@@ -41,6 +41,5 @@ PATH=$PATH:/usr/local/bin:/usr/local/sbin:$HOME/bin
 export AWS_CONFIG_FILE=~/.awscli
 complete -C aws_completer aws
 
-
 export PATH
 unset USERNAME
