@@ -34,7 +34,7 @@ alias vi='vim'
 
 export PS1="[\\[\033[33m\]\u@\h \w\[\033[0m\]]\\$ "
 
-PATH=$PATH:/usr/local/bin:/usr/local/sbin:$HOME/bin
+PATH=$PATH:/usr/local/bin:/usr/local/sbin:/usr/local/lib:$HOME/bin
 
 export PATH
 unset USERNAME

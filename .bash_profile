@@ -3,3 +3,4 @@ if [ -f ~/.bashrc ]; then
 fi
 export AWS_CONFIG_FILE=~/.awscli
 complete -C aws_completer aws
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
