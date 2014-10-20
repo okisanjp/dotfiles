@@ -5,6 +5,8 @@ fi
 umask 022
 ulimit -c 0
 
+set completion-ignore-case on
+
 export HISTSIZE=5000
 export HISTFILESIZE=50000
 export HISTIGNORE='ls:ll:pwd'
