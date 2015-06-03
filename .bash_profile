@@ -3,5 +3,9 @@ if [ -f ~/.bashrc ]; then
 fi
 export AWS_CONFIG_FILE=~/.awscli
 complete -C aws_completer aws
-export PATH="$HOME/.rbenv/bin:$PATH"
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+export PATH=$PATH:/usr/local/opt/go/libexec/bin
+export GOPATH=$GOPATH
+export PATH=$PATH:$GOPATH/bin

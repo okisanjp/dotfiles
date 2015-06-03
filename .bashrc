@@ -43,3 +43,5 @@ PATH=$PATH:/usr/local/bin:/usr/local/sbin:/usr/local/lib:$HOME/bin
 
 export PATH
 unset USERNAME
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
