@@ -20,5 +20,6 @@ make_slink .bash_profile
 make_slink .bashrc
 make_slink .inputrc
 make_slink .vimrc
+make_slink .gemrc
 
 
