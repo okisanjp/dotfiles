@@ -8,5 +8,4 @@ complete -C aws_completer aws
 
 export PATH=$PATH:/usr/local/opt/go/libexec/bin
 export GOPATH=~/gocode
-export GOPATH=$GOPATH
 export PATH=$PATH:$GOPATH/bin
