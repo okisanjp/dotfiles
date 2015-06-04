@@ -2,6 +2,10 @@ if [ -f /etc/bashrc ]; then
 . /etc/bashrc
 fi
 
+if [ -f ~/.bash_secret ]; then
+. ~/.bash_secret
+fi
+
 umask 022
 ulimit -c 0
 
@@ -45,3 +49,6 @@ export PATH
 unset USERNAME
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
