@@ -47,8 +47,3 @@ PATH=$PATH:/usr/local/bin:/usr/local/sbin:/usr/local/lib:$HOME/bin
 
 export PATH
 unset USERNAME
-
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
-# nodebrew
-export PATH=$PATH:$HOME/.nodebrew/current/bin
