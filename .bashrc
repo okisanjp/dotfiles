@@ -40,6 +40,7 @@ alias cp='cp -iv'
 alias rm='rm -iv'
 alias mv='mv -iv'
 alias vi='vim'
+alias relog='exec $SHELL -l'
 
 export PS1="[\\[\033[33m\]\u@\h \w\[\033[0m\]]\\$ "
 
