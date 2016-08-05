@@ -8,6 +8,7 @@ complete -C aws_completer aws
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
 # nodebrew
 export PATH=$PATH:$HOME/.nodebrew/current/bin
 
@@ -19,6 +20,3 @@ export PATH=$PATH:$GOPATH/bin
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
-
-# git completion
-source ~/Dropbox/scripts/git-completion.bash

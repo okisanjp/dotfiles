@@ -21,5 +21,3 @@ make_slink .bashrc
 make_slink .inputrc
 make_slink .vimrc
 make_slink .gemrc
-
-
