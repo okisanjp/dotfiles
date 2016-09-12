@@ -20,3 +20,6 @@ export PATH=$PATH:$GOPATH/bin
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
+
+# gem : awd-sdk
+export AWS_REGION='ap-northeast-1'
