@@ -23,3 +23,14 @@ eval "$(rbenv init -)"
 
 # gem : awd-sdk
 export AWS_REGION='ap-northeast-1'
+
+# direnv
+eval "$(direnv hook bash)"
+
+# rails
+export RAILS_ENV=development
+
+# pyenv
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
